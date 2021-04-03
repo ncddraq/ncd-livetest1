@@ -1,0 +1,6 @@
+---
+- hosts: 10.240.24.97
+  become: yes
+  roles:
+  - lean_delivery.jenkins
+
