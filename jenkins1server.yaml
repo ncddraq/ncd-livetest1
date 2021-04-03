@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  vars:
+    java_packages:
+      - openjdk-8-jdk
+  roles:
+   - geerlingguy.java 
+   - geerlingguy.jenkins
+  
